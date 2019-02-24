@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16101" started-at="2019-02-19T03:23:54Z" finished-at="2019-02-19T03:24:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16101" started-at="2019-02-19T03:23:54Z" finished-at="2019-02-19T03:24:10Z">
+      <class name="com.demoAutomationsite.testcases.ADS_register">
+        <test-method status="PASS" signature="method_initial()[pri:0, instance:com.demoAutomationsite.testcases.ADS_register@685cb137]" name="method_initial" is-config="true" duration-ms="56" started-at="2019-02-19T08:53:54Z" finished-at="2019-02-19T08:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_initial -->
+        <test-method status="PASS" signature="browser_starts()[pri:0, instance:com.demoAutomationsite.testcases.ADS_register@685cb137]" name="browser_starts" is-config="true" duration-ms="15577" started-at="2019-02-19T08:53:54Z" finished-at="2019-02-19T08:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_starts -->
+        <test-method status="PASS" signature="register_ads()[pri:0, instance:com.demoAutomationsite.testcases.ADS_register@685cb137]" name="register_ads" duration-ms="488" started-at="2019-02-19T08:54:10Z" finished-at="2019-02-19T08:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_ads -->
+      </class> <!-- com.demoAutomationsite.testcases.ADS_register -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
