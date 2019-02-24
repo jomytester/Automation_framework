@@ -9,9 +9,9 @@ public class ADS_register extends BaseClass_ADS {
 	public void register_ads() throws InterruptedException {
 	
 		
-		register_page.Register("Jomy", "George");
-
-        
+		register_page.Register("Jomy", "George");    
+		
+		
 	}
 
 }
