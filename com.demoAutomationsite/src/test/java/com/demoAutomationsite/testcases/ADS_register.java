@@ -10,8 +10,7 @@ public class ADS_register extends BaseClass_ADS {
 	
 		
 		register_page.Register("Jomy", "George");    
-		
-		
+	
 	}
 
 }
