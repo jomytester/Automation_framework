@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11000" started-at="2019-02-28T12:00:19Z" finished-at="2019-02-28T12:00:30Z">
+  <suite name="Default suite" duration-ms="14953" started-at="2019-03-01T07:17:44Z" finished-at="2019-03-01T07:17:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11000" started-at="2019-02-28T12:00:19Z" finished-at="2019-02-28T12:00:30Z">
+    <test name="Default test" duration-ms="14953" started-at="2019-03-01T07:17:44Z" finished-at="2019-03-01T07:17:59Z">
       <class name="com.demoAutomationsite.testcases.ADS_register">
-        <test-method status="PASS" signature="method_initial()[pri:0, instance:com.demoAutomationsite.testcases.ADS_register@eafc191]" name="method_initial" is-config="true" duration-ms="11" started-at="2019-02-28T12:00:19Z" finished-at="2019-02-28T12:00:19Z">
+        <test-method status="PASS" signature="method_initial()[pri:0, instance:com.demoAutomationsite.testcases.ADS_register@eafc191]" name="method_initial" is-config="true" duration-ms="11" started-at="2019-03-01T07:17:44Z" finished-at="2019-03-01T07:17:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method_initial -->
-        <test-method status="PASS" signature="browser_starts()[pri:0, instance:com.demoAutomationsite.testcases.ADS_register@eafc191]" name="browser_starts" is-config="true" duration-ms="10784" started-at="2019-02-28T12:00:19Z" finished-at="2019-02-28T12:00:30Z">
+        <test-method status="PASS" signature="browser_starts()[pri:0, instance:com.demoAutomationsite.testcases.ADS_register@eafc191]" name="browser_starts" is-config="true" duration-ms="9470" started-at="2019-03-01T07:17:44Z" finished-at="2019-03-01T07:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser_starts -->
-        <test-method status="PASS" signature="register_ads()[pri:0, instance:com.demoAutomationsite.testcases.ADS_register@eafc191]" name="register_ads" duration-ms="201" started-at="2019-02-28T12:00:30Z" finished-at="2019-02-28T12:00:30Z">
+        <test-method status="PASS" signature="register_ads()[pri:0, instance:com.demoAutomationsite.testcases.ADS_register@eafc191]" name="register_ads" duration-ms="5469" started-at="2019-03-01T07:17:53Z" finished-at="2019-03-01T07:17:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register_ads -->
