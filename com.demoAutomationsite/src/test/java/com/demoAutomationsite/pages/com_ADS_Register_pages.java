@@ -50,7 +50,12 @@ public class com_ADS_Register_pages {
 
 	@FindBy(id = "yearbox")
 	WebElement year_select;
-
+	
+	@FindBy(xpath = "//*[@id=\"basicBootstrapForm\"]/div[11]/div[2]/select")
+	WebElement month_select;
+	
+	@FindBy(id="daybox")
+	WebElement day_select;
 	@FindBy(id = "imagesrc")
 	WebElement upload;
 
@@ -60,8 +65,7 @@ public class com_ADS_Register_pages {
 	@FindBy(id = "Button1")
 	WebElement refersh_btn;
 
-	@FindBy(xpath = "//select[@placeholder= 'Month']//option")
-	WebElement month_select;
+
 
 	public com_ADS_Register_pages(WebDriver driver) {
 
@@ -130,8 +134,12 @@ public class com_ADS_Register_pages {
 		Select year_selection = new Select(year_select);
 		year_selection.selectByVisibleText("1995");
 		
-		/*Select month_selection = new Select(month_select);
-		month_selection.selectByVisibleText(arg0);*/
+		Select month_selection = new Select(month_select);
+		month_selection.selectByVisibleText("March");
+		
+		
+		Select day_selection = new Select(day_select);
+		day_selection.selectByVisibleText("18");
 
 		// refersh_btn.click();
 
