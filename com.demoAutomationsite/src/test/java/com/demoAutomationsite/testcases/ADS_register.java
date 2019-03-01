@@ -8,7 +8,7 @@ public class ADS_register extends BaseClass_ADS {
 	@Test
 	public void register_ads() throws InterruptedException {
 	
-		register_page.Register("john", "cena","j@mailinator.com");
+		register_page.Register("john", "cena","j1@mailinator.com");
 	
 	}
 

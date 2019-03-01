@@ -50,11 +50,11 @@ public class com_ADS_Register_pages {
 
 	@FindBy(id = "yearbox")
 	WebElement year_select;
-	
+
 	@FindBy(xpath = "//*[@id=\"basicBootstrapForm\"]/div[11]/div[2]/select")
 	WebElement month_select;
-	
-	@FindBy(id="daybox")
+
+	@FindBy(id = "daybox")
 	WebElement day_select;
 	@FindBy(id = "imagesrc")
 	WebElement upload;
@@ -65,7 +65,11 @@ public class com_ADS_Register_pages {
 	@FindBy(id = "Button1")
 	WebElement refersh_btn;
 
+	@FindBy(id = "firstpassword")
+	WebElement pwd_1;
 
+	@FindBy(id = "secondpassword")
+	WebElement pwd_2;
 
 	public com_ADS_Register_pages(WebDriver driver) {
 
@@ -78,7 +82,7 @@ public class com_ADS_Register_pages {
 		firstname.sendKeys(first_name);
 		lastname.sendKeys(last_name);
 		Mail_id.sendKeys(emailid);
-		phone_num.sendKeys("9876543217");
+		phone_num.sendKeys("9876543277");
 
 		for (int i = 0; i < gender.size(); i++) {
 
@@ -133,15 +137,16 @@ public class com_ADS_Register_pages {
 
 		Select year_selection = new Select(year_select);
 		year_selection.selectByVisibleText("1995");
-		
+
 		Select month_selection = new Select(month_select);
 		month_selection.selectByVisibleText("March");
-		
-		
+
 		Select day_selection = new Select(day_select);
 		day_selection.selectByVisibleText("18");
 
 		// refersh_btn.click();
+		pwd_1.sendKeys("Test@2345");
+		pwd_2.sendKeys("Test@2345");
 
 		upload.sendKeys("C:\\Users\\innobot-win-user-2\\Downloads\\1. Preview Page.png");
 
