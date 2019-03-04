@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeSuite;
 
 import com.demoAutomationsite.pages.com_ADS_Register_pages;
 import com.demoAutomationsite.utility.Configuration;
+import com.demoAutomationsite.utility.Dataread;
 import com.demoAutomationsite.utility.browserFactory_demoSite;
 
 public class BaseClass_ADS {
@@ -17,7 +18,7 @@ public class BaseClass_ADS {
 	public com_ADS_Register_pages register_page;
 	public Configuration configuration;
 	public browserFactory_demoSite browser;
-	
+
 	
 	@BeforeSuite
 	public void method_initial() throws Exception {
@@ -25,6 +26,7 @@ public class BaseClass_ADS {
 		register_page = new com_ADS_Register_pages(driver);
 		configuration = new Configuration();
 		browser = new browserFactory_demoSite();
+		
 	}
 	
 	

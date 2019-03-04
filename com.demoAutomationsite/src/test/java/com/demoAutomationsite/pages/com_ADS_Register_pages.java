@@ -82,7 +82,7 @@ public class com_ADS_Register_pages {
 		firstname.sendKeys(first_name);
 		lastname.sendKeys(last_name);
 		Mail_id.sendKeys(emailid);
-		phone_num.sendKeys("9876543277");
+		phone_num.sendKeys("9876543270");
 
 		for (int i = 0; i < gender.size(); i++) {
 
