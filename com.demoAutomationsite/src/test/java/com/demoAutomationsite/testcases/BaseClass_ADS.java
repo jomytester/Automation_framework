@@ -11,6 +11,7 @@ import com.demoAutomationsite.pages.com_ADS_WebTable_pages;
 import com.demoAutomationsite.pages.com_ADS_alerts_pages;
 import com.demoAutomationsite.utility.Configuration;
 import com.demoAutomationsite.utility.Dataread;
+import com.demoAutomationsite.utility.Modules_click;
 import com.demoAutomationsite.utility.browserFactory_demoSite;
 
 public class BaseClass_ADS {
@@ -24,6 +25,7 @@ public class BaseClass_ADS {
     public Dataread dr;
     public com_ADS_WebTable_pages Tables;;
     public com_ADS_alerts_pages alert_handle;
+    public Modules_click module;
 	
 	@BeforeSuite
 	public void method_initial() throws Exception {
@@ -34,6 +36,7 @@ public class BaseClass_ADS {
 		dr = new Dataread();
 		Tables = new com_ADS_WebTable_pages(driver);
 		alert_handle = new com_ADS_alerts_pages(driver);
+	    module = new Modules_click(driver);
 	}
 	
 	
@@ -45,6 +48,7 @@ public class BaseClass_ADS {
 		register_page = PageFactory.initElements(driver, com_ADS_Register_pages.class);
 		Tables = PageFactory.initElements(driver,com_ADS_WebTable_pages.class);
 		alert_handle = PageFactory.initElements(driver, com_ADS_alerts_pages.class);
+		module = PageFactory.initElements(driver, Modules_click.class);
 	}
 
 	

@@ -14,11 +14,7 @@ public class com_ADS_alerts_pages {
 	WebDriver driver;
 	Alert globalAlertswitch;
 
-	@FindBy(xpath = "//*[@id=\"header\"]/nav/div/div[2]/ul/li[4]/a")
-	WebElement switchto_click;
-
-	@FindBy(xpath = "//a[contains(text(),'Alerts')]")
-	WebElement switchto_Alert;
+	
 
 	@FindBy(id = "OKTab")
 	WebElement AlertWithOk;
@@ -47,14 +43,13 @@ public class com_ADS_alerts_pages {
 
 	}
 
+	
+	
 	public void alert_ok() {
 
-		switchto_click.click();
-
-		Actions moveTo_alert = new Actions(driver);
-		moveTo_alert.moveToElement(switchto_Alert).click().build().perform();
+	
+		
 		AlertWithOk.click();
-
 		globalAlertswitch = driver.switchTo().alert();
 
 		globalAlertswitch.accept();
